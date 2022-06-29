@@ -1,4 +1,4 @@
-import { LinkTreeContent } from '../LinkTree/index';
+import { LinkTreeContent } from '../LinkTree';
 import { Mood } from '../Mood';
 
 export const Main = () => {
