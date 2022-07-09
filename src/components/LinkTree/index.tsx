@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord, faSteam, faLastfm, faSpotify } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faSteam, faLastfm, faSpotify, faTwitch, faSoundcloud } from "@fortawesome/free-brands-svg-icons";
 
 const LinkTree = styled.div`
     display: flex;
@@ -19,8 +19,13 @@ export const LinkTreeContent = () => {
     return(
         <LinkTree>
             <div>
-                <Links href={'https://www.last.fm/user/Massacrar'} target={'_blank'} >
-                    <FontAwesomeIcon icon={faLastfm} />
+                <Links href={'https://steamcommunity.com/id/talonabuser/'} target={'_blank'}>
+                    <FontAwesomeIcon icon={faSteam} />
+                </Links>
+            </div>
+            <div>
+                <Links href={'https://www.twitch.tv/kingunmei/about'} target={'_blank'}>
+                    <FontAwesomeIcon icon={faTwitch} />
                 </Links>
             </div>
             <div>
@@ -29,13 +34,13 @@ export const LinkTreeContent = () => {
                 </Links>
             </div>
             <div>
-                <Links href={'https://steamcommunity.com/id/talonabuser/'} target={'_blank'}>
-                    <FontAwesomeIcon icon={faSteam} />
+                <Links href={'https://www.last.fm/user/Massacrar'} target={'_blank'} >
+                    <FontAwesomeIcon icon={faLastfm} />
                 </Links>
             </div>
             <div>
-                <Links href={'https://discord.gg/gAMNV6WeYa'} target={'_blank'}>
-                    <FontAwesomeIcon icon={faDiscord} />
+                <Links href={'https://soundcloud.com/esreichtnicht'} target={'_blank'}>
+                    <FontAwesomeIcon icon={faSoundcloud} />
                 </Links>
             </div>
         </LinkTree>

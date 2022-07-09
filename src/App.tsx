@@ -24,19 +24,19 @@ const App = () => {
   }, 1000);
 
 
-return (
-    <Container>
-      {
-        loading ? 
-          <BarLoader
-          color={"#FFFFFF"}
-          loading={loading}
-          />
-        :
-          <Main />
-      }
-    </Container>
-  );
+  return (
+      <Container>
+        {
+          loading ? 
+            <BarLoader
+            color={"#FFFFFF"}
+            loading={loading}
+            />
+          :
+            <Main />
+        }
+      </Container>
+    );
 };
 
 export default App;
