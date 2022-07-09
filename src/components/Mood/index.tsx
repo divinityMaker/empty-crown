@@ -7,7 +7,7 @@ const Moodbox = styled.p`
 export const Mood = () => {
     return (
         <Moodbox>
-         {"{ Think I'm turning into a ghost }"}
+         {"{ My main goal in death is to blow up heaven }"}
         </Moodbox>
     );
 };
