@@ -39,7 +39,7 @@ export const LinkTreeContent = () => {
                 </Links>
             </div>
             <div>
-                <Links href={'https://soundcloud.com/esreichtnicht'} target={'_blank'}>
+                <Links href={'https://soundcloud.com/braindeadmaker'} target={'_blank'}>
                     <FontAwesomeIcon icon={faSoundcloud} />
                 </Links>
             </div>
