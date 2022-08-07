@@ -1,2 +1,0 @@
-# PERSONAL SITE
-Practicing ReactJS
